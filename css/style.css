@@ -1,0 +1,937 @@
+{
+    box-sizing: border-box
+
+}
+h1 {font-size: 1em;
+}
+h2 {font-size: 1em;}
+
+h3 {font-size: 1em;}
+
+p { font-size:  0.75em;}
+
+ul { list-style: none;}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+} 
+h1 {font-size: 1.5em;
+}
+h2 {font-size: 1.5em;}
+
+h3 {font-size: 1em;}
+
+p { font-size:  0.75em;}
+
+ul { list-style: none;}
+li { font-size: 1em}
+
+.centerbuton{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 30px;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 7px;
+    border: 2px solid rgba(0,0,0),0.5;
+    box-shadow: 2px 2px 10px rgba(0,0,0),0.5;
+    color: white;
+    background-color: rgb(250, 210, 0);
+}
+
+button:hover{
+    background-color: rgb(3, 3, 3)
+}
+
+
+header {
+    background-color: blueviolet;
+    text-align: center;
+}
+
+header .SeParte {
+background-color: blueviolet;
+font-size: 1em;
+font-weight: bold;
+}
+
+.footer {
+    background-color: rgb(77, 77, 77);
+    color: rgb(0, 0, 0);
+}
+
+.navbar1 {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    color: black;
+    padding: 10px;
+    margin: 2px;
+}
+
+.containernavbar {
+    max-width: 1400px;
+    margin: auto;
+    align-items: center;
+    font-weight: bold;
+    color: black;
+}
+
+
+.navbar li a:hover {
+    background-color: blueviolet
+}
+
+.fotoinicio {
+    height: 100%;
+    width: 100%;
+}
+
+.lorcabodega {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+.tiempodevino-sus {
+    background-color: blueviolet;
+    color: rgb(254, 254, 254);
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 33px;
+    margin: 15px;
+
+}
+
+
+
+.suscripciones {
+    margin: 3rem;
+    padding: 1rem;
+    display: inline-flex    
+}
+
+.suscripcionreglular {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    border: 2px solid rgba(0,0,0),0.5;
+    box-shadow: 7px 27px 15px rgba(0,0,0),1;
+    background-color: rgb(170, 82, 253);
+    font-weight: bold;
+}
+
+
+.suscripcionpremium {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    border: 2px solid rgba(0,0,0),0.5;
+    box-shadow: 7px 27px 15px rgba(0,0,0),1;
+    background-color: rgb(122, 48, 190);
+    font-weight: bold;
+
+
+}
+
+
+.suscripcioninsignia {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    border: 2px solid rgba(0,0,0),0.5;
+    box-shadow: 7px 27px 15px rgba(0,0,0),1;
+    background-color: rgb(74, 23, 122);
+    font-weight: bold;
+
+}
+
+#nuestro-concepto .container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+#nuestro-concepto .texto {
+    width: 50%;
+    max-width: 600px;
+    text-align: initial;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#nuestro-concepto h2 {
+    margin-top: 0px;
+    background-color: blueviolet;
+}
+
+#nuestro-concepto .img-container {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5),
+    );
+    background-image: url("../assets/penedo-borges.png");
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 400px;
+}
+
+.nada {
+    background-color: blueviolet;
+    color: rgb(254, 254, 254);
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 1px;
+    margin: 1px;
+
+}
+
+.botonesclub {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+
+
+}
+.sabermas {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 30px;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 7px;
+    border: 2px solid rgba(0,0,0),0.5;
+    box-shadow: 2px 2px 10px rgba(0,0,0),0.5;
+    color: white;
+    background-color: rgb(117, 17, 126);
+}
+
+.unitealclub {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 30px;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 7px;
+    border: 2px solid rgba(0,0,0),0.5;
+    box-shadow: 2px 2px 10px rgba(0,0,0),0.5;
+    color: white;
+    background-color: rgb(117, 17, 126);
+}
+
+
+section .asociate {
+    display: flex;
+}
+
+section .asociateAlcClubDelVino img {
+    display: block;
+    margin: auto;
+    margin-top: 20px;   
+    width: 700px;
+    height: 700px
+    
+}
+
+.bodegas .bodegasquepodesencontrar {
+    text-align: center;
+    background-color: rgba(36, 36, 36, 0.692);
+    font-weight: bold;
+    font-size: 3rem;
+    justify-content: center;
+    gap: 1px;
+}
+
+.imagenesbodegas{
+    text-align: center;
+}
+
+.luigi {
+    width: 500px;
+    height: 500px
+    
+}
+
+.cundobodega {
+    width: 500px;
+    height: 500px
+}
+
+.gimenezrilli{
+        width: 500px;
+    height: 500px
+}
+.parrafoColgado p {
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem;
+    justify-content: center;
+}
+
+.parrafoColgado button {
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding: 10px;
+
+}
+
+.nada1 {
+    background-color: rgba(70, 70, 70, 0.251);
+    color: rgb(254, 254, 254);
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 1px;
+
+}
+
+.sommeliere img {
+    display: block;
+    display: block;
+    margin: auto;
+    margin-top: 70px;
+    
+
+}
+
+.sommeliere p {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+    justify-content: center;
+}
+
+.quiensoy {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+    justify-content: center;
+    padding-top: 20px;
+    margin: 50px;
+}
+
+.nada2 {
+    background-color: rgba(254, 254, 254, 0.833);
+    color: rgb(87, 4, 117);
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 1px;
+
+}
+
+
+.SUSCRIBITE P {
+
+    background-color: rgba(36, 36, 36, 0.692);
+    font-weight: bold;
+    text-align: center;
+    font-size: 3rem;
+    justify-content: center;
+}
+
+.suscribirmebuton {
+    text-align: center;
+    display: block;
+    margin: auto;
+
+}
+
+
+footer {
+    padding: 200;
+    margin: 100;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(36, 36, 36, 0.301);
+}
+
+
+
+
+/*
+EL CLUB
+*/
+
+.navbar1 {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.elclubdeltiempo {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 5px;
+    padding: 1rem;
+}
+
+.imagen-club {
+    display: block;
+    text-align: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.botones {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 1rem
+}
+.asociate-online{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 30px;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 7px;
+    border: 2px solid rgba(0,0,0),0.5;
+    box-shadow: 2px 2px 10px rgba(0,0,0),0.5;
+    color: white;
+    background-color: rgb(117, 17, 126);
+}
+
+.quiero-asesoren{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 30px;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 7px;
+    border: 2px solid rgba(0,0,0),0.5;
+    box-shadow: 2px 2px 10px rgba(0,0,0),0.5;
+    color: white;
+    background-color: rgb(117, 17, 126);
+}
+
+
+
+.descripcionesclub {
+    margin: auto;
+    font-weight: bold;
+    font: size 3rem;
+    margin: 300;
+}
+
+.comoeselclub h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.conteinergrid {
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    height: 37.5rem;
+    grid-template-columns: 30% 30% 30% ;
+    grid-template-rows: repeat(2,1fr);
+    }
+.carac1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.carac1 img {
+    width: 30%;
+    height: 30%;
+}
+.carac1 p {
+    text-align: center;
+    font-size: 1.5625rem;
+    padding-right: 1.875rem;
+}
+
+.carac2 {
+    grid-column: 2/3;
+    grid-row:  1/2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.carac2 img {
+    width: 30%;
+    height: 30%;
+}
+.carac2 p {
+    text-align: center;
+    font-size: 1.5625rem;
+    padding-right: 1.875rem;
+}
+.carac3 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.carac3 img {
+    width: 30%;
+    height: 30%;
+}
+.carac3 p {
+    text-align: center;
+    font-size: 1.5625rem;
+    align-items: center;
+    padding-right: 1.875rem;
+}
+.carac4 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.carac4 img {
+    width: 30%;
+    height: 30%;
+}
+.carac4 p {
+    text-align: center;
+    font-size: 1.5625rem;
+    padding-right: 1.875rem;
+
+}
+
+.loquerecibiras {
+    display: block;
+    text-align: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.lasuscrip {
+    margin: 0px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 300;
+}
+
+.tiempodevinos {
+    display: flex;
+    gap: 420px;
+    padding-left: 210px;
+    
+
+}
+.sumate {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.elegilasu {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.gridsuscrip {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    padding-left: 200px;
+    margin: 10px;
+}
+
+.etiquetas {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    color: blueviolet;
+}
+
+.envios {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    color: blueviolet;
+}
+
+.beneficio {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    color: blueviolet;
+}
+
+.degustacion {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    color: blueviolet;
+}
+
+.cajainsigniaa {
+    width: 70%;
+    height: 100%;
+    justify-self: center;
+    grid-column: 3/4;
+    grid-row: 1/3;
+
+}
+
+.insig {
+    color: rgb(75, 74, 76);
+    grid-column: 3/4;
+    grid-row: 3/4;
+    text-align: center;
+}
+
+.iniciate{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    justify-self: center;
+    align-self: self-end;
+    padding: auto;
+
+
+}
+
+.tiempo {
+    color: blueviolet;
+    grid-column: 3/4;
+    grid-row: 4/5;
+    text-align: right;
+}
+
+.botellas {
+    grid-column: 3/4;
+    grid-row: 4/5;
+    justify-self: center;
+    align-self: center;
+}
+
+.precio{
+    grid-column: 3/4;
+    grid-row: 4/5;
+    text-align: right;
+    align-self: center;
+}
+
+.conoce-selecciones{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 30px;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 7px;
+    border: 2px solid rgba(0,0,0),0.5;
+    box-shadow: 2px 2px 10px rgba(0,0,0),0.5;
+    color: white;
+    background-color: rgb(117, 17, 126);
+}
+
+.footer1 {
+    margin: 50px;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer2 {
+    margin: 50px;
+    background-color: rgba(36, 36, 36, 0.301);
+    text-align: center;
+    justify-content: center;
+}
+
+/** CSS -EXPERIENCIA **/
+
+.regalaexperiencia {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 300;
+}
+
+.bronce {
+    color: aliceblue;
+    margin: 2px;
+    padding: 50px;
+    background-color: rgb(113, 82, 3);
+}
+.descripcionbronce {
+
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 300;
+}
+
+.beneficiobronce{
+    padding: 500;
+    margin: 500;
+    text-align: center;
+    justify-content: center;
+}
+
+.plata {
+    color: aliceblue;
+    margin: 2px;
+    padding: 50px;
+    gap: 1px
+    ;
+    background-color: rgb(132, 131, 130);
+}
+.descripcionplata {
+
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 300;
+}
+
+.beneficioplata{
+    padding: 500;
+    margin: 500;
+    text-align: center;
+    justify-content: center;
+}
+
+.oro {
+    color: aliceblue;
+    margin: 2px;
+    padding: 50px;
+    background-color: rgb(221, 171, 46);
+}
+.descripcionoro {
+
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 300;
+}
+
+.beneficiooro{
+    padding: 500;
+    margin: 500;
+    text-align: center;
+    justify-content: center;
+}
+
+
+/** TIEnDA **/
+
+*{
+    background-color: rgb(246, 246, 246);
+    height: auto;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.descripcionsession{
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    border: 50%;
+    padding: 2%;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+
+.imgtienda {
+    width: 100%;
+    height: 30%;
+}
+
+.tienavino {
+    background-color: blueviolet;
+    color: rgb(254, 254, 254);
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 33%px;
+    margin: 15%;
+
+}
+
+
+
+.containertienda{
+    display: grid;
+    background-color: rgb(255, 255, 255);
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    border: 1px solid rgb(255, 254, 254);
+    margin: 5px;
+    padding: 10px;
+}
+
+.items{
+    background-color: rgb(255, 255, 255);
+    border: 7px solid rgb(255, 255, 255);
+    border-radius: 2px;
+    color: rgb(77, 7, 100);
+}
+
+
+.buton1{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 30px;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 7px;
+    border: 2px solid rgba(0,0,0),0.5;
+    box-shadow: 2px 2px 10px rgba(0,0,0),0.5;
+    color: white;
+    background-color: rgb(117, 17, 126);
+}
+
+button:hover{
+    background-color: blueviolet
+}
+
+.price {
+    display: flex;
+    justify-content: right;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    height: 50%;
+    width: 50%;
+
+}
+
+/** QUIENES SOMOS **/
+
+#quienes-somos .container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#quienes-somos .texto {
+    width: 50%;
+    max-width: 600px;
+    text-align: initial;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#quienes-somos h2 {
+    margin-top: 0px;
+    background-color: blueviolet;
+}
+
+#quienes-somos .img-container {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5),
+    );
+    background-image: url("../assets/chelsea-pridham-MMOXoxE_Gj0-unsplash.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 400px;
+}
+
+#seleccion-de-vino .container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#seleccion-de-vino .texto {
+    width: 50%;
+    max-width: 600px;
+    text-align: initial;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#seleccion-de-vino h2 {
+    margin-top: 0px;
+    background-color: blueviolet;
+}
+
+#seleccion-de-vino .img-container {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5),
+    );
+    background-image: url("../assets/camion-de-demenagement.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 400px;
+}
+
+#somos-comunidad .container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+#somos-comunidad .texto {
+    width: 50%;
+    max-width: 600px;
+    text-align: initial;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#somos-comunidad h2 {
+    margin-top: 0px;
+    background-color: blueviolet;
+}
+
+#somos-comunidad .img-container {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5),
+    );
+    background-image: url("../assets/bodega-comunidad.jfif");
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 400px;
+}
